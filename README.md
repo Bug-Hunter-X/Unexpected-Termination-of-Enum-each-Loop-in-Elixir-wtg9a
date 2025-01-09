@@ -1,0 +1,3 @@
+# Elixir Enum.each Termination Bug
+
+This repository demonstrates a potential issue when using `Enum.each` in Elixir and attempting to terminate the loop prematurely using `Process.exit`.  The provided code showcases the problem and includes a solution demonstrating a safer way to handle such situations.  The bug arises from interrupting the iteration, which can cause side effects and unexpected behavior.  The solution utilizes a different approach to elegantly achieve the same result while avoiding premature termination issues.  This example is helpful for understanding potential pitfalls in functional programming and demonstrates best practices for handling exceptions.
